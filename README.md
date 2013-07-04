@@ -1,5 +1,14 @@
-datos.json = datos desde datos.gov.cl con las matrículas de cada establecimiento
-	TODO: hay que cambiar todos los valores ? por su correspondiente [á,é,í,ó,ú,ñ] quedan cerca de 800 valores por cambiar
-		
+datos.json
+----------
+datos desde datos.gov.cl con las matrículas de cada establecimiento
+	
+json-decode
+-----------
+rutina php que parsea los datos relevantes para QUEJON
 
-json-decode = rutina php que parsea los datos relevantes para QUEJON
+TODO
+----
+-Hay que cambiar todos los valores ? por su correspondiente [á,é,í,ó,ú,ñ] quedan cerca de 800 valores por cambiar
+-Hacer un dump SQL con la estructura INSERT INTO colegios(...) VALUES (...) con los valores obtenidos del json		
+
+
